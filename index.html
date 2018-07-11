@@ -1,0 +1,37 @@
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/core-os@0.1.6/Core.js"></script>
+</head>  
+<body>
+
+<table>
+    <tr>
+        <td valign="top"><video id="video-placeholder"></video></td>
+        <td valign="top">
+            <h3>Playlist</h3>
+
+            <ul class="playlist-items">
+                <li class="playlist-item" onclick="Playlist.clickVideo(this.getAttribute('href'))" href="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4">Video 1</li>
+                <li class="playlist-item" onclick="Playlist.clickVideo(this.getAttribute('href'))" href="http://techslides.com/demos/sample-videos/small.mp4">Video 2</li>
+                <li class="playlist-item" onclick="Playlist.clickVideo(this.getAttribute('href'))" href="http://www.sample-videos.com/video/mp4/480/big_buck_bunny_480p_1mb.mp4">Video 3</li>
+                <li class="playlist-item" onclick="Playlist.clickVideo(this.getAttribute('href'))" href="http://html5demos.com/assets/dizzy.mp4">Video 4</li>
+                <li class="playlist-item" onclick="Playlist.clickVideo(this.getAttribute('href'))" href="http://jell.yfish.us/media/jellyfish-3-mbps-hd-h264.mkv">Video 5</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<div class="positionContainer" onmousedown="PlayerUI.setPlayPosition(event, this)" sltyle="display: relative;">
+    <div class="position" style="width: 0%;">&nbsp;</div>
+</div>
+<button class="playerui-mute"      onclick="PlayerUI.clickMuteUnmute()">mute</button>
+<button class="playerui-prev"      onclick="PlayerUI.clickPrev()">|&lt;</button>
+<button class="playerui-minus1"    onclick="PlayerUI.clickMinus1()">&lt;&lt;</button>
+<button class="playerui-playpause" onclick="PlayerUI.clickPlayPause()">play</button>
+<button class="playerui-plus1"     onclick="PlayerUI.clickPlus1()">&gt;&gt;</button>
+<button class="playerui-next"      onclick="PlayerUI.clickNext()">&gt;|</button>
+<button class="playerui-stop"      onclick="PlayerUI.clickStop()">[stop]</button>
+<span class="playerui-position"></span> / <span class="playerui-duration"></span>
+
+
+</body>
+</html>
