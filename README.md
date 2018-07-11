@@ -4,6 +4,8 @@ This is a simple demonstration of **CORE design pattern** (acronym: Context, Obj
 
 Playground: https://jsfiddle.net/hrdj90gb/29/
 
+Have a nice play! :-)
+
 ## Other links
 
 Framework: https://github.com/extremeprog-com/core
