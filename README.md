@@ -10,4 +10,4 @@ Have a nice play! :-)
 
 Framework: https://github.com/extremeprog-com/core
 
-Description: https://medium.com/@_os/core-design-pattern-the-way-out-from-overly-complicated-code-b8804449941
+Description: https://medium.com/@i_am_os/core-design-pattern-the-way-out-from-overly-complicated-code-b8804449941
